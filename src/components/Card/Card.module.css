@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  background-color: #ffffff;
+  gap: 15px;
+  padding: 7px 14px;
+  border-radius: 4px;
+  height: max-content;
+  text-align: start;
+}
+.company__name {
+  color: rgb(0, 0, 108);
+  line-height: 100%;
+  text-align: center;
+}
+.btn__buy {
+  background-color: rgb(255, 121, 25);
+  border-radius: 5px;
+  padding: 10px 35px;
+  color: #ffffff;
+  border: none;
+  transition: 0.2s;
+}
+.btn__buy:hover {
+  background-color: rgb(225, 94, 0);
+  transform: translateY(5%);
+}
+.title__time {
+  font-size: 27px;
+  margin-top: 13px;
+}
+.stops {
+  color: gray;
+  margin-top: 13px;
+}
+.flight__data {
+  color: gray;
+}

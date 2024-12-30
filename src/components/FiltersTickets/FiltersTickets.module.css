@@ -1,0 +1,25 @@
+.filter__container {
+  display: flex;
+  flex-direction: column;
+}
+.filter__block {
+  display: flex;
+  gap: 5px;
+  margin-top: -15px;
+}
+.filter__block input[type='checkbox'] {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 17px;
+
+  transition: all 0.3s ease;
+}
+
+/* Стили при наведении */
+.filter__block input[type='checkbox']:hover {
+  border-color: #888;
+}

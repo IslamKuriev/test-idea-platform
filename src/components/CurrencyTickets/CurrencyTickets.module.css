@@ -1,0 +1,25 @@
+.currency__container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gainsboro;
+  width: 200px;
+  margin-top: -10px;
+}
+.currency__button {
+  padding: 7px 14px;
+  border: none;
+  background-color: transparent;
+  transition: 0.3s;
+}
+.currency__button__active {
+  padding: 7px 14px;
+  border: none;
+  background: rgb(0, 81, 255);
+  color: azure;
+  transition: 0.3s;
+}
+.currency__button:hover {
+  background: rgb(0, 81, 255);
+  color: azure;
+  border-radius: 8px;
+}
